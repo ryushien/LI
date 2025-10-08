@@ -1,0 +1,31 @@
+s1-103:~# cd /mnt/host/c/Users/U24G3140
+s1-103:/mnt/host/c/Users/U24G3140# cd Downloads
+s1-103:/mnt/host/c/Users/U24G3140/Downloads# cd ..
+s1-103:/mnt/host/c/Users/U24G3140# cd Desktop
+s1-103:/mnt/host/c/Users/U24G3140/Desktop# mkdir class3
+s1-103:/mnt/host/c/Users/U24G3140/Desktop# mkdir class3_bak
+s1-103:/mnt/host/c/Users/U24G3140/Desktop# cd class3
+s1-103:/mnt/host/c/Users/U24G3140/Desktop/class3# touch class3_演習.txt
+s1-103:/mnt/host/c/Users/U24G3140/Desktop/class3# ls
+class3_演習.txt
+s1-103:/mnt/host/c/Users/U24G3140/Desktop/class3# date > class3_演習.txt
+s1-103:/mnt/host/c/Users/U24G3140/Desktop/class3# pwd >> class3_演習.txt
+s1-103:/mnt/host/c/Users/U24G3140/Desktop/class3# cat class3_演習.txt
+Wed Oct  8 02:23:52 UTC 2025
+/mnt/host/c/Users/U24G3140/Desktop/class3
+s1-103:/mnt/host/c/Users/U24G3140/Desktop/class3# cp class3_演習.txt class3_cp.txt
+s1-103:/mnt/host/c/Users/U24G3140/Desktop/class3# ls
+class3_cp.txt    class3_演習.txt
+s1-103:/mnt/host/c/Users/U24G3140/Desktop/class3# cat class3_cp.txt
+Wed Oct  8 02:23:52 UTC 2025
+/mnt/host/c/Users/U24G3140/Desktop/class3
+s1-103:/mnt/host/c/Users/U24G3140/Desktop/class3# mv class3_cp.txt ../class3_bak/
+s1-103:/mnt/host/c/Users/U24G3140/Desktop/class3# ls
+class3_演習.txt
+s1-103:/mnt/host/c/Users/U24G3140/Desktop/class3# cd ..
+s1-103:/mnt/host/c/Users/U24G3140/Desktop# ls
+class3       class3_bak   desktop.ini  提出・配布
+s1-103:/mnt/host/c/Users/U24G3140/Desktop# cd class3
+s1-103:/mnt/host/c/Users/U24G3140/Desktop/class3# rm  class3_演習.txt
+s1-103:/mnt/host/c/Users/U24G3140/Desktop/class3# ls
+s1-103:/mnt/host/c/Users/U24G3140/Desktop/class3#
